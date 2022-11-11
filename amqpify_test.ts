@@ -1,5 +1,4 @@
-import { Amqpify } from "./amqpify.ts";
-import { AMQPClientError, AMQPServerError } from "./errors.ts";
+import { Amqpify, AMQPClientError, AMQPServerError } from "./mod.ts";
 
 const amqp = await Amqpify.Create();
 
